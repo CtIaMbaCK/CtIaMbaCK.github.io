@@ -1,0 +1,190 @@
+.sign-up {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+.sign-header {
+    display: flex;
+    border-bottom: 1px solid var(--product-color);
+}
+.logo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 8vw;
+}
+.sign-body {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 54rem;
+    margin-top: 4vw;
+    flex-direction: column;
+}
+.body-logo {
+    margin-left: 46%;
+}
+.logo-body {
+    width: 12vw;
+    height: 6vw;
+    margin-bottom: 2vw;
+}
+.phone-box {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.religion {
+    border: 1px solid var(--product-color);
+    width: 6rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--dg-color);
+}
+.body-insert {
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 36%;
+    margin-bottom: 4rem;
+
+}
+.phone-box input {
+    border-bottom-style: groove;
+    color:black;
+    padding: 15px;
+}
+input::placeholder{
+     color:var(--grey-color);
+}
+input:focus {
+     outline: none;
+}
+.sdt {
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    border: 1px solid var(--product-color);
+    height: 4rem;
+    width: 36.6rem;
+    color: var(--dg-color);
+    background-color: var(--bg-color);
+    margin-left: 1rem;
+}
+.continue-box a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43.6rem;
+    height: 4rem;
+    background-color: #A6B2C0;
+    border-radius: 10px;
+    
+}
+.continue-box span {
+    font-size: 1.6rem;
+    color:var(--white-color)
+}
+.more span {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: var(--grey-color);
+}
+.more {
+    margin-left: 36%;
+    width: 43.6rem;
+    height: 4rem;
+}
+.span1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.another {
+    margin-top: 1rem;
+}
+.another a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43.6rem;
+    height: 4rem;
+    background-color: #A6B2C0;
+    border-radius: 10px;
+}
+.another span {
+    font-size: 1.6rem;
+    color:var(--white-color)
+}
+.another i {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: var(--white-color);
+}
+
+@media (max-width:500px) {
+   .logo {
+    width: 8rem;
+   }
+   .logo-body {
+    margin-left: 12rem;
+    width: 8rem;
+    height: 4rem;
+   }
+   .sign-up {
+    width: 100%;
+   }
+   .sign-body {
+    margin-left: -23rem;
+   }
+   .body-insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .body-contain {
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .religion {
+    /* width: 4rem; */
+   }
+   .sdt {
+    width: 20rem;
+   }
+   .continue-box a {
+    width: 26.8rem
+   }
+   .more {
+    margin-top: -2rem;
+   }
+   .more {
+    width: 38rem;
+   }
+   .more .span1 {
+    /* display: block; */
+    /* max-width: 10rem; */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    
+   }
+   .another {
+    width: 26.8rem;
+
+   }
+   .another a {
+    margin-left: 6rem;
+    width: 26.8rem;
+   }
+   .sign-up {
+    height: 50rem;
+   }
+   
+}

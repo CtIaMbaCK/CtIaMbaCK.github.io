@@ -1,0 +1,70 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #000;
+    --grey-color:rgba(102, 102, 102,0.6);
+    --dg-color:#1C2E40;
+    --product-color:#C1B29B;
+    --bg-color: #eff1f2;
+    --footer-color:#A6B2C0;
+}
+* {
+    box-sizing: inherit; /* các element trong cả chương trình kế thừa html */
+}
+
+html {
+    /* Hack pixel */
+    font-size: 62.5%;
+    line-height: 1.8rem ;
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 120rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Animation  */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+@keyframes headerNotificationGrow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes headerProductGrow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+

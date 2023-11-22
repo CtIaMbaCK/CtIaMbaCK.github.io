@@ -1,0 +1,315 @@
+.header {
+  z-index: 2;
+}
+.all-shopping-cart-contain {
+  /* height: 380rem; */
+  width: 100%;
+  background-color: var(--bg-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.shopping-cart-contain {
+  display: flex;
+  flex-direction: column;
+}
+.left-head {
+  margin-top: 6vw;
+  /* background-color: var(--footer-color); */
+  width: 10.6%;
+  height: 8vw;
+  display: flex;
+  border-top: 2px solid var(--dg-color);
+  border-left: 2px solid var(--dg-color);
+  /* border-right: 2px solid var(--dg-color); */
+  /* border-bottom: 2px solid var(--dg-color); */
+  border-top-left-radius: 30px;
+  /* border-bottom-left-radius: 30px; */
+  margin-bottom: 2vw;
+}
+.all-head {
+  font-size: 10rem;
+  color: var(--dg-color);
+}
+.right-head {
+  margin-top: 6vw;
+  /* background-color: var(--footer-color); */
+  width: 10.6%;
+  height: 8vw;
+  display: flex;
+  border-top: 2px solid var(--dg-color);
+  /* border-left: 2px solid var(--dg-color); */
+  border-right: 2px solid var(--dg-color);
+  /* border-bottom: 2px solid var(--dg-color); */
+  border-top-right-radius: 30px;
+  /* border-bottom-right-radius: 30px; */
+  margin-bottom: 2vw;
+}
+.shopping-cart-head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 14vw;
+  z-index: 1;
+}
+.shopping-cart-body {
+  width: 100%;
+  height: 100rem;
+  background-color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+}
+.cart-contain {
+  width: 88%;
+  height: 80rem;
+  /* background-color: var(--footer-color); */
+  border-left: 2px solid var(--dg-color);
+  border-right: 2px solid var(--dg-color);
+  border-bottom: 2px solid var(--dg-color);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.cart-pd {
+  width: 95%;
+  height: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vw;
+  border: 1px solid var(--dg-color);
+  border-top: 0px;
+  border-bottom: 0px;
+  border-radius: 10px;
+  background-color: #A6B2C0;
+  margin-top: 1vw;
+  justify-content: space-evenly;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.pd-img {
+  width: 16vw;
+  border-radius: 30px;
+}
+.cart-decript {
+  width: 40%;
+  line-height: 1.6;
+  color:var(--white-color)
+}
+.head-cript {
+  font-size: 3.2rem;
+}
+.cript {
+  font-size: 1.6rem;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+}
+.plus,
+#number,
+.negv {
+  width: 4rem;
+  height: 4rem;
+  border: 0px;
+}
+.plus,
+.negv {
+  background-color: #EFF1F2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.numnber {
+  text-align: center;
+  border-radius: 5px;
+}
+.price {
+  font-size: 2vw;
+  color:var(--white-color)
+}
+.cart-pd i {
+  width: 4rem;
+  height: 4rem;
+  /* background-color: #ECDEB9; */
+  font-size: 3rem;
+  margin-bottom: 16rem;
+  cursor: pointer;
+  color:var(--white-color)
+
+}
+.total {
+  height: 20vw;
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: flex;
+  margin-top: -4vw;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", Nunito, sans-serif;
+}
+.pay{
+  display: flex;
+  width: 30%;
+  /* justify-content: center; */
+  background-color: var(--bg-color);
+  margin-left: 8rem;
+  flex-direction: column;
+}
+.way-text {
+  font-size: 4rem;
+  color: var(--dg-color);
+  margin-bottom: 2.8vw;
+  font-weight: 600;
+}
+.footer {
+  z-index: 1;
+}
+.all-price {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dg-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.all-price1 {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dg-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.line {
+    width: 88%;
+    height: 2px;
+    background-color: var(--dg-color);
+    margin-bottom: 2rem;
+}
+.all-price1 input {
+    width: 30%;
+    background-color: var(--bg-color);
+    border: 0px;
+    font-size: 1.6rem;
+    color: var(--dg-color);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", Nunito, sans-serif;
+}
+.line1 {
+    width: 88%;
+    height: 2px;
+    background-color: var(--dg-color);
+    margin-top: 2rem;
+}
+.more {
+    margin-left: 20rem;
+}
+.more-content {
+    height: 6rem;
+    width: 22rem;
+    background: #a5bdc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-content,.more-content {
+    margin-bottom: 20px;
+}
+.more-content a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.more-content span {
+    padding: 18px 6px;
+}
+.more-content:hover {
+    background-color: #A6B2C0;
+}
+.more-content:hover a {
+    color: black;
+}
+
+@media (max-width: 500px) {
+  .all-head {
+    font-size: 3.66rem;
+  }
+  .head-cript {
+    font-size: 1rem;
+  }
+  .cript {
+    font-size: 0.8rem;
+  }
+  .product-link {
+    border-radius: 5px;
+  }
+  .plus,
+  #number,
+  .negv {
+    width: 2rem;
+    height: 2rem;
+  }
+  .cart-pd i {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
+  .cart-contain {
+    height: 24rem;
+    width: 98%;
+  }
+  .shopping-cart-body {
+    height:46rem ;
+  }
+  .total {
+    height: 40rem;
+  }
+  .pay {
+    margin-left: 6rem;
+    width: 50%;
+  }
+  .way-text {
+    font-size: 1.6rem;
+    margin-left: -4rem;
+  }
+  .all-price,.all-price1 {
+    font-size: 1.6rem;
+  }
+  .all-price1 .tien {
+    margin-right: 4rem;
+  }
+  .all-price .tien {
+    margin-right: 4rem;
+  }
+  .all-price1 .ma {
+    margin-right: 4rem;
+  }
+  .nf-price {
+    margin-left: -4rem;
+  }
+  .f-price {
+    margin-left: -4rem;
+  }
+  .more {
+    margin-left: 4rem;
+    margin-top: 2.8rem;
+    margin-left: -0.1rem;
+  }
+  .more-content {
+    height: 4rem;
+    width: 14rem;
+  }
+  .more-content span {
+    font-size: 1rem;
+  }
+  .total {
+    height: 26rem;
+  }
+  .nav__mobile {
+    height: 100%;
+  }
+  .about {
+      height: 100%;
+  }
+}
