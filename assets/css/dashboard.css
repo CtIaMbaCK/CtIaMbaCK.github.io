@@ -18,9 +18,17 @@
 .ad-icon i {
     margin-right: 1rem;
     cursor: pointer;
+    
 }
 .ad-pic {
     display: flex;
+    margin-left: 2rem;
+    flex-direction: row;
+}
+.ad-pic a {
+    display: flex;
+    text-decoration: none;
+    color: var(--dg-color);
 }
 .ad-pic span {
     /* margin-left: 1rem; */

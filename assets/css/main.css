@@ -666,6 +666,7 @@
 }
 
 /* sản phẩm */
+
 .product-category {
   display: flex;
   flex-wrap: wrap;
@@ -763,14 +764,14 @@
 }
 
 .all-product  {
-  /* width: 135.6rem; */
+  width: 135.6rem;
   height: 84rem;
   background-color: #A6B2C0;
   display: flex;
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
   border-radius: 30px;
   /* margin-left: 2rem;
   margin-right: 2rem; */
@@ -1090,6 +1091,7 @@
     margin-top: -14rem;
   }
   .all-product {
+    width: 38rem;
     height: 34rem;
   }
   .btn-left,.btn-right {

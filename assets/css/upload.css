@@ -1,0 +1,51 @@
+.name {
+    margin-bottom: 2rem;
+}
+.name {
+    height: 8rem;
+}
+.chart {
+    height: 120rem;
+
+}
+
+.cmt-h {
+    margin-bottom: 6rem;
+}
+.cmt {
+    justify-content: center;
+    border: 0px;
+    margin-bottom: 1rem;
+}
+.ten {
+    width: 8rem;
+    background-color: var(--white-color);
+}
+.name img {
+    width: 6rem;
+}
+.cmt-txt {
+    width: 70%;
+    justify-content: left;
+    background-color: var(--white-color);
+}
+.tien {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    width: 10rem;
+    background-color: var(--white-color);
+    color: orange;
+}
+.duyet {
+    color: orange;
+    background-color: var(--white-color);
+    border: 1px solid  var(--dg-color);
+    width: 10rem;
+}
+
+.thongso {
+    margin-left: 6rem;
+    justify-content: space-between;
+    width: 105rem;
+}
