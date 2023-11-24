@@ -25,12 +25,13 @@
 }
 .cmt {
     width: 96%;
-    height: 8rem;
+    height: auto;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* background-color: red; */
-    border-bottom: 1px solid var(--dg-color);
+    border-top: 1px solid var(--dg-color);
 
 }
 .name {
@@ -40,17 +41,22 @@
     display: flex;
     justify-content: center;
     width: 20%;
-    background-color: #8CAAFF;
-
+    /* background-color: #8CAAFF; */
+    font-weight: 600;
+}
+.ten a {
+    text-decoration: none;
+    color: var(--dg-color);
 }
 .duyet {
-    width: 20%;
+    width: 10%;
     background-color:#8CAAFF;
     display: flex;
     justify-content: center;
     font-weight: 600;
     color: var(--white-color);
     cursor: pointer;
+    font-size: 1.3rem;
 }
 .duyet:hover {
     background-color: var(--dg-color);
@@ -58,10 +64,11 @@
 .cmt-txt { 
     display: flex;
     padding: 0rem 2rem;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    background-color: #8CAAFF;
+    /* align-items: center; */
+    width: 80rem;
+    /* background-color: #8CAAFF; */
+    height: auto;
+    /* left: 0; */
 
 }
 .chart1 {

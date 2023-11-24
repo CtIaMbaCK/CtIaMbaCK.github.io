@@ -1,0 +1,60 @@
+.ad-user-btn {
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: rem;
+}
+.thongso {
+    justify-content: left;
+}
+.thongso-contain {
+    margin-left:4.8rem;
+}
+.user-btn {
+    width: 16rem;
+    height: 4REM;
+    /* background-color:var(--white-color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: -4rem;
+    box-shadow: 0px 0px 3px;
+    padding: 2rem 0px;
+    transform: scale(1);
+    transition: all 0.5s;
+    margin-left: 2rem;
+    margin-bottom: 6rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.btn-contain {
+    height: 10rem;
+    margin-top: -2rem;
+}
+.user-btn:hover {
+    opacity: 0.8;
+}
+.b1 {
+    background-color: #40A040;
+}
+.b2 {
+    background-color: #1C2E40;
+}
+.b3 {
+    background-color: #C67321;
+}
+.fam1 {
+    justify-content: left;
+    margin-right: 4rem;
+    width: 108rem;
+    height: 95rem;
+}
+.fam1 td {
+    height: 8rem;
+}
+.fam1 th {
+    height: 6rem;
+}
