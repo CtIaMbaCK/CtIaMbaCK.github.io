@@ -532,7 +532,10 @@
 }
 .link_opt:hover {
   color: orange;
-  background: rgba(102, 102, 102, 0.3);
+  font-weight: 600;
+}
+.link_opt .opt:hover {
+  background-color:#1c2e40;
 }
 /* hover hiện menu của shop */
 .header__menu-link--list:hover .header__menu--link--list-opt {
